@@ -1,7 +1,6 @@
 {
     "artifact_name": "my gh action",
     "artifact_id": "gh-action-{{ cookiecutter.artifact_name.lower().replace(' ', '-') }}",
-    "artifact_cli": "{{ cookiecutter.artifact_name.lower().replace(' ', '-') }}",
     "artifact_git": "git@github.com:stracquadaniolab/{{ cookiecutter.artifact_id }}.git",
     "artifact_version": "0.0.1",
     "artifact_author": "stracquadaniolab",

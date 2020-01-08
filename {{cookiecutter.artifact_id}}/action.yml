@@ -1,0 +1,13 @@
+name: '{{cookiecutter.artifact_id}}'
+description: '{{cookiecutter.description}}'
+inputs:
+  message:
+    description: 'my message'
+    required: true
+    default: 'hello'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.message }}

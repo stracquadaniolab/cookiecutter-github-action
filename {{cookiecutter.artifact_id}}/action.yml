@@ -1,5 +1,5 @@
-name: '{{cookiecutter.artifact_id}}'
-description: '{{cookiecutter.description}}'
+name: '{{ cookiecutter.artifact_id }}'
+description: '{{ cookiecutter.artifact_description }}'
 inputs:
   message:
     description: 'my message'
@@ -10,4 +10,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - {% ${{ inputs.message }} %}
+    - echo message

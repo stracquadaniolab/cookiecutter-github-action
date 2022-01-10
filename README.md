@@ -1,10 +1,6 @@
 # A cookiecutter for GitHub actions
 
-Current version: 0.1.0
-
-## Authors
-
-* Giovanni Stracquadanio, info@stracquadaniolab.org
+![](https://img.shields.io/badge/current_version-v0.1.0-blue)
 
 ## Overview
 
@@ -35,3 +31,7 @@ Changes should be commited to GIT by running:
 git push
 git push --tags
 ```
+
+## Authors
+
+* Giovanni Stracquadanio, info@stracquadaniolab.org

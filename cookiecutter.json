@@ -1,10 +1,9 @@
 {
     "artifact_name": "my gh action",
     "artifact_id": "gh-action-{{ cookiecutter.artifact_name.lower().replace(' ', '-') }}",
-    "artifact_git": "git@github.com:stracquadaniolab/{{ cookiecutter.artifact_id }}.git",
-    "artifact_version": "0.0.1",
+    "artifact_org": "stracquadaniolab",
+    "artifact_git": "https://github.com/{{ cookiecutter.artifact_org }}/{{ cookiecutter.artifact_id }}.git",
     "artifact_author": "stracquadaniolab",
     "artifact_email": "info@stracquadaniolab.org",
-    "artifact_description": "A short description of the action.",
-    "artifact_license": ["MIT", "BSD", "None"]
+    "artifact_description": "A short description of the action."
 }

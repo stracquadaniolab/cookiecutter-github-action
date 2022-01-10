@@ -1,6 +1,6 @@
 # A cookiecutter for GitHub actions
 
-![](https://img.shields.io/badge/current_version-v0.1.0-blue)
+![](https://img.shields.io/badge/current_version-v0.2.0-blue)
 
 ## Overview
 

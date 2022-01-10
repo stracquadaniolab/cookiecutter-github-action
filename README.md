@@ -4,14 +4,16 @@
 
 ## Overview
 
+A cookiecutter to boostrap a GitHub action.
+
 ### Step 1: Bootstrap an action
 
-    cookiecutter git@github.com:stracquadaniolab/cookiecutter-github-action.git
+    cookiecutter https://github.com/stracquadaniolab/cookiecutter-github-action
 
 ### Step 3: Versioning
-Packages should use the following semantic versioning scheme:
+Actions should use the following semantic versioning scheme:
 ```
-{MAJOR}.{MINOR}.{PATCH}-{RELEASE}
+{MAJOR}.{MINOR}.{PATCH}
 ```
 where:
 - MAJOR: the version introduces incompatible changes with the previous one or new code/functioning structure.
@@ -23,7 +25,6 @@ Version should be tracked using `bumpversion`. You can bump all parts of the ver
 - MAJOR: `bumpversion major`
 - MINOR: `bumpversion minor`
 - PATCH: `bumpversion patch`
-- RELEASE: `bumpversion release`
 
 ### Step 4: Sharing changes
 Changes should be commited to GIT by running:
@@ -34,4 +35,4 @@ git push --tags
 
 ## Authors
 
-* Giovanni Stracquadanio, info@stracquadaniolab.org
+* Giovanni Stracquadanio, @gstracquadanio

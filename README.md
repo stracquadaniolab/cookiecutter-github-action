@@ -1,6 +1,7 @@
 # A cookiecutter for GitHub actions
 
 ![](https://img.shields.io/badge/current_version-v0.2.0-blue)
+[![build](https://github.com/stracquadaniolab/cookiecutter-github-action/actions/workflows/ci.yml/badge.svg)](https://github.com/stracquadaniolab/cookiecutter-github-action/actions/workflows/ci.yml)
 
 ## Overview
 
